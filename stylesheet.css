@@ -72,12 +72,37 @@
     
   /* Photo block styles */
   .photo-block {
-    display: table-column-group;
-    width: 200px;
+    display: inline-block;
+    width: 45%;
     margin: 20px;
   }
   
   .photo-block img {
     width: 100%;
     height: auto;
+  }
+  
+  /* Bigger photo block */
+  .bigger-photo {
+    width: 90%;
+  }
+  
+  /* Clear floats for photo blocks */
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Two columns on larger screens */
+  @media only screen and (min-width: 600px) {
+    .photo-block {
+      width: 45%;
+    }
+    
+    .bigger-photo {
+      width: 90%;
+      float: left;
+      clear: both;
+    }
   }
