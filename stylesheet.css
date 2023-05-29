@@ -20,6 +20,10 @@ header {
   align-items: center;
 }
 
+header img {
+  margin-right: 10px;
+}
+
 /* Navigation styles */
 nav {
   background-color: #f4f4f4;
