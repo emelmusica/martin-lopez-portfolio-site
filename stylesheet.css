@@ -84,7 +84,7 @@ section {
 
 /* Bigger photo block */
 .bigger-photo {
-  width: 90%;
+  width: 80%;
 }
 
 /* Clear floats for photo blocks */
@@ -101,7 +101,7 @@ section {
   }
   
   .bigger-photo {
-    width: 90%;
+    width: 80%;
     float: left;
     clear: both;
   }
