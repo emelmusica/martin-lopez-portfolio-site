@@ -1,108 +1,108 @@
 /*look at last week's stylesheet as a reference ya dummy*/
 /* Reset some default styles */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+/* Section styles */
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  /* Adjust header font size for small screens */
+  header h1 {
+    font-size: 24px;
   }
   
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Header styles */
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  /* Navigation styles */
-  nav {
-    background-color: #f4f4f4;
-    padding: 10px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  
+  /* Make navigation responsive */
   nav ul li {
-    display: inline-block;
-    margin: 0 10px;
+    display: block;
+    margin: 10px 0;
   }
-  
-  nav ul li a {
-    color: #333;
-    text-decoration: none;
-    padding: 5px 10px;
-  }
-  
-  /* Section styles */
+}
+
+/* Responsive styles for tablets */
+@media only screen and (max-width: 900px) {
+  /* Adjust section padding for tablets */
   section {
-    padding: 50px;
-    text-align:left;
+    padding: 30px;
   }
-  
-  /* Responsive styles */
-  @media only screen and (max-width: 600px) {
-    /* Adjust header font size for small screens */
-    header h1 {
-      font-size: 24px;
-    }
-    
-    /* Make navigation responsive */
-    nav ul li {
-      display: block;
-      margin: 10px 0;
-    }
-  }
-  
-  /* Responsive styles for tablets */
-  @media only screen and (max-width: 900px) {
-    /* Adjust section padding for tablets */
-    section {
-      padding: 30px;
-    }
-  }
-    
-  /* Photo block styles */
+}
+
+/* Photo block styles */
+.photo-block {
+  display: inline-block;
+  width: 45%;
+  margin: 20px;
+}
+
+.photo-block img {
+  width: 100%;
+  height: auto;
+}
+
+/* Bigger photo block */
+.bigger-photo {
+  width: 90%;
+}
+
+/* Clear floats for photo blocks */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Two columns on larger screens */
+@media only screen and (min-width: 600px) {
   .photo-block {
-    display: inline-block;
     width: 45%;
-    margin: 20px;
   }
   
-  .photo-block img {
-    width: 100%;
-    height: auto;
-  }
-  
-  /* Bigger photo block */
   .bigger-photo {
     width: 90%;
-  }
-  
-  /* Clear floats for photo blocks */
-  .clearfix::after {
-    content: "";
-    display: table;
+    float: left;
     clear: both;
   }
-  
-  /* Two columns on larger screens */
-  @media only screen and (min-width: 600px) {
-    .photo-block {
-      width: 45%;
-    }
-    
-    .bigger-photo {
-      width: 90%;
-      float: left;
-      clear: both;
-    }
-  }
+}
