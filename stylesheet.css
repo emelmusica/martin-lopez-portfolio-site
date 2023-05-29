@@ -69,3 +69,15 @@
       padding: 30px;
     }
   }
+    
+  /* Photo block styles */
+  .photo-block {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+  }
+  
+  .photo-block img {
+    width: 100%;
+    height: auto;
+  }
