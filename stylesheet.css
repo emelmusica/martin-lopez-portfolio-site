@@ -1,5 +1,4 @@
 /*look at last week's stylesheet as a reference ya dummy*/
-/* Reset some default styles */
 * {
   box-sizing: border-box;
 }
@@ -64,7 +63,7 @@ section {
 
 /* Responsive styles */
 @media only screen and (max-width: 600px) {
-  /* Adjust header font size for small screens */
+  /*small screens */
   header h1 {
     font-size: 24px;
   }
@@ -78,7 +77,6 @@ section {
 
 /* Responsive styles for tablets */
 @media only screen and (max-width: 900px) {
-  /* Adjust section padding for tablets */
   section {
     padding: 30px;
   }
@@ -108,7 +106,6 @@ section {
   clear: both;
 }
 
-/* Two columns on larger screens */
 @media only screen and (min-width: 600px) {
   .photo-block {
     width: 45%;
