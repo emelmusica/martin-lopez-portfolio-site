@@ -110,6 +110,9 @@ section {
   color: #fff;
   padding: 10px;
   text-align: center;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 /*Google how to make bottom photo block imgs the same height*/
