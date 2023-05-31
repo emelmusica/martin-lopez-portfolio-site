@@ -94,7 +94,7 @@ section {
 .photo-block img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
 }
 /*Google how to make bottom photo block imgs the same height*/
 
