@@ -87,9 +87,6 @@ section {
   display: inline-block;
   width: 45%;
   margin: 20px;
-}
-
-.photo-block img {
   width: 100%;
   height: auto;
   object-fit: cover;
