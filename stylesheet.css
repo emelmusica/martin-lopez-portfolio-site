@@ -86,6 +86,7 @@ section {
 .photo-block {
   display: inline-block;
   width: 45%;
+  height: 100%;
   margin: 20px;
   
 }
