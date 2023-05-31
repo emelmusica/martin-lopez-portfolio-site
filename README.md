@@ -20,7 +20,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 
-# On this assignment I watched a youtube video that took me step by step on building a basic website with a navagation bar along with it's css styling. https://www.youtube.com/watch?v=PgAZ8KzfhO8
+# On this assignment I watched a youtube video that took me step by step on building a basic website with a navigation bar along with it's css styling. https://www.youtube.com/watch?v=PgAZ8KzfhO8
 
 # I used w3schools.com for looking up the majority of my code along with some google searches and coding books that I purchased to help me study and use as a resource. 
 
